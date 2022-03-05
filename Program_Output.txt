@@ -1,0 +1,107 @@
+C:\Users\Amitava Bhattacharya\OneDrive\Desktop\Academics\Sem 1\CS6320 - Natural Language Processing\Assignment 1>py bigram.py train.txt 0
+File Name  : train.txt
+Add-1 Flag : 0
+
+Total Vocabulary Count in Corpus: 25833
+
+====================================
+
+SENTENCE 1 PROBABILITIES AND BIGRAMS
+
+====================================
+
+Sentence 1:mark antony , heere take you caesars body : you shall not come to them poet .
+
+
+SENTENCE 1 BIGRAM COUNTS IN CORPUS
+
+('mark', 'antony'):13
+('antony', ','):25
+(',', 'heere'):5
+('heere', 'take'):1
+('take', 'you'):1
+('you', 'caesars'):1
+('caesars', 'body'):2
+('body', ':'):1
+(':', 'you'):13
+('you', 'shall'):16
+('shall', 'not'):10
+('not', 'come'):7
+('come', 'to'):15
+('to', 'them'):2
+('them', 'poet'):1
+('poet', '.'):4
+
+SENTENCE 1 BIGRAM PROBABILITIES IN CORPUS
+
+('mark', 'antony'):0.9285714285714286
+('antony', ','):0.3333333333333333
+(',', 'heere'):0.002268602540834846
+('heere', 'take'):0.01694915254237288
+('take', 'you'):0.043478260869565216
+('you', 'caesars'):0.0025575447570332483
+('caesars', 'body'):0.05263157894736842
+('body', ':'):0.07692307692307693
+(':', 'you'):0.026052104208416832
+('you', 'shall'):0.04092071611253197
+('shall', 'not'):0.08
+('not', 'come'):0.027237354085603113
+('come', 'to'):0.20270270270270271
+('to', 'them'):0.004484304932735426
+('them', 'poet'):0.016666666666666666
+('poet', '.'):0.5
+
+Probability of Sentence 1 without Add-1 Smoothing: 9.427863447275291e-23
+
+
+
+====================================
+
+SENTENCE 2 PROBABILITIES AND BIGRAMS
+
+====================================
+
+Sentence 2:no , sir , there are no comets seen , the heauens speede thee in thine enterprize .
+
+
+SENTENCE 2 BIGRAM COUNTS IN CORPUS
+
+('no', ','):9
+(',', 'sir'):6
+('sir', ','):19
+(',', 'there'):14
+('there', 'are'):3
+('are', 'no'):2
+('no', 'comets'):1
+('comets', 'seen'):1
+('seen', ','):1
+(',', 'the'):40
+('the', 'heauens'):5
+('heauens', 'speede'):1
+('speede', 'thee'):1
+('thee', 'in'):1
+('in', 'thine'):2
+('thine', 'enterprize'):1
+('enterprize', '.'):1
+
+SENTENCE 2 BIGRAM PROBABILITIES IN CORPUS
+
+('no', ','):0.0967741935483871
+(',', 'sir'):0.0027223230490018148
+('sir', ','):0.8260869565217391
+(',', 'there'):0.006352087114337568
+('there', 'are'):0.05555555555555555
+('are', 'no'):0.01834862385321101
+('no', 'comets'):0.010752688172043012
+('comets', 'seen'):1.0
+('seen', ','):1.0
+(',', 'the'):0.018148820326678767
+('the', 'heauens'):0.008635578583765112
+('heauens', 'speede'):0.2
+('speede', 'thee'):0.5
+('thee', 'in'):0.01818181818181818
+('in', 'thine'):0.008888888888888889
+('thine', 'enterprize'):0.25
+('enterprize', '.'):0.14285714285714285
+
+Probability of Sentence 2 without Add-1 Smoothing: 1.3707431177944941e-21
